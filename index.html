@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imgSearch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="modal">
+        <div class="modal-wrapper">
+            <header>
+                <div class="buttons">
+                    <button class="downloadBtn">download</button>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </header>
+            <div class="preview-img">
+                <div><img src="./img/img1.jpg" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <section class="search">
+        <div class="search-title">
+            <h1>imgSearch</h1>
+            <p>フリー画像ダウンロード</p>
+            <div class="search-form">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="入力してください">
+            </div>
+        </div>
+    </section>
+    <section class="results">
+        <ul class="results-images"></ul>
+        <button class="more-btn">もっと読み込む</button>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
